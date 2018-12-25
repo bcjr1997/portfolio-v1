@@ -1,0 +1,195 @@
+<!--Bootstrap Version: 4.1.3 -->
+.<!DOCTYPE html>
+<html>
+<head>
+	<title>Brian's Portfolio</title>
+	<!--This link allows CSS files to do their thing-->
+	<link rel="stylesheet" type="text/css" href="main.css"> 
+	<!--Bootstrap Library -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"crossorigin="anonymous">
+	<!--Icon Library-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<!--Library for jQuery Popper.js, JS, This is for the dropdown menu bar-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<!--Bootstrap Library at the bottom for faster performance-->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+
+<!--Grid Layout: default layout for Bootstrap-->
+<!--Container-fluid: Have a container that expands to the left and right end of the website-->
+<body>
+	<script>
+		$(document).ready(function(){
+    		$('[data-toggle="popover"]').popover();   
+		});
+	</script>
+
+	<div class="main-container">
+		<!--Navbar-->
+	<nav class="navbar navbar-expand-lg navbar-transparent navbar-light">
+		<a class="navbar-brand" href="#">Brian Chong Jun Rong</a>
+ 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    	<span class="navbar-toggler-icon"></span>
+  		</button>
+	</nav>
+
+	<!--Jumbotron-->
+	<div id="jumbo" class="jumbotron text-center">
+		<div class="Container-fluid">
+			<h1 class="display">Jun Rong Brian Chong</h1>
+			<p class="text-center">Junior Computer Science Student at the University of Nebraska-Lincoln</p>
+		</div>
+	</div>
+
+	<!--Work Experience-->
+	<div id="workExp" class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<h3><center>Work Experience</center></h3>
+			</div>
+		</div>
+			<div class="row">
+				<div id="softEng" class="col-md-3">
+					<h4>Associate Software Engineer</h4>
+					<h6>Jeffrey S.Raikes Design Studio</h6>
+					<p>Developing industry standard software for Design Studio partners that will solve their current issues</p>
+					<button class="btn btn-primary" data-toggle="popover"data-content="Some content inside the popover">More</button>
+				</div>
+				<div id="research"class="col-md-3">
+					<h4>Undergraduate Research Assistant</h4>
+					<h6>University of Nebraska-Lincoln</h6>
+					<p>Helped out in researching open-source IoT tools for a new research by testing out different IoT tools and finding the limitations of the tools.</p>
+
+				</div>
+				<div class="col-md-3">
+					<h4>Teaching Assistant - Software Engineering</h4>
+					<h6>University of Nebraska-Lincoln</h6>
+				</div>
+				<div class="col-md-3">
+					<h4>Teaching Assistant - Data Structures and Algorithms</h4>
+					<h6>University of Nebraska-Lincoln</h6>
+				</div>
+			</div>
+		</div>
+
+		<!--Project Experience-->
+		<div class="container-fluid" id="projExp">
+			<div class="row">
+				<div class="col-md-12">
+					<h3><center>Project Experience</center></h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="card" id ="pdfsense">
+						<div class="card-body">
+							<div class="card-title">
+								<h5>PDFSense</h5>
+							</div>
+							<div class="card-text">
+								<p>Project from Design Studio</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card" id ="portfolioWebsite">
+						<div class="card-body">
+							<div class="card-title">
+								<h5>Portfolio Website</h5>
+							</div>
+							<div class="card-text">
+								<p>Personal Website</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card" id ="hamsterhelp">
+						<div class="card-body">
+							<div class="card-title">
+								<h5>HamsterHelp</h5>		
+							</div>
+							<div class="card-text">
+								<p>Project for CSCE 361</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>
+
+		<!--Skills & Courses Taken-->
+		<div id="skills-courses" class="container-fluid">
+			<div class="row">
+				<div class="col-md-12"><center><h3>Skills</h3></center></div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<h5>Hard(Technical)</h5>
+					<ul class="list-unstyled">
+						<li>Java</li>
+						<li>Python</li>
+						<li>C++</li>
+						<li>R (RStudio)</li>
+						<li>Research</li>
+						<li>Data Analysis</li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<h5>Soft(Interpersonal)</h5>
+					<ol class="list-unstyled">
+						<li>Teamwork</li>
+						<li>Time Management</li>
+						<li>Management</li>
+						<li>Leadership</li>
+						<li>Communication</li>
+					</ol>
+				</div>
+				<div class="col-md-4">
+					<h5>Languages</h5>
+					<ul class="list-unstyled">
+						<li>English</li>
+						<li>Malay (Bahasa Malay)</li>
+						<li>Chinese (Mandarin, Mother Tongue)</li>
+						<li>Japanese (Beginner Level)</li>
+					</ul>
+				</div>		
+			</div>
+		</div>
+
+		<!--Footer-->
+		<div id="misc" class="container-fluid">
+			<div class="row">
+				<div class="col-md-6">
+					<h5>Portfolio</h5>
+					<ul class="list-unstyled">
+						<li>
+							<span class="fab fa-github" style="font-size: 24px">
+									<a href="https://github.com/bcjr1997" target="_blank"> GitHub</a>
+								</span>
+							</li>
+							<li>
+								<span class="fab fa-linkedin" style="font-size: 24px">
+									<a href="https://www.linkedin.com/in/brian-chong-973225147/" target="_blank">LinkedIn</a>
+								</span>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-6">
+						<h5>Contact</h5>
+						<ul class="list-unstyled">
+							<li>
+								<span class="far fa-envelope"style="font-size: 24px">
+								brian.cjr2323@gmail.com
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

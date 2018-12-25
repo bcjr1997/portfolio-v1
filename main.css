@@ -1,0 +1,70 @@
+/*
+CSS File for the website
+*/
+
+/*Jumbotron*/
+jumbotron{
+	background-size: cover;
+}
+
+/*Work Experience*/
+softEng{
+	background-color: pink; 
+}
+
+research{
+	background-color: white;
+}
+
+/*Body*/
+body{
+	background-image: url("Images/board-chips-circuit-board-1105379.jpg");
+	height: 100%;
+	position: relative;
+}
+
+html{
+	position: relative;
+	min-height: 100%;
+}
+
+#jumbo{
+	background-color: rgba(245,245,245,0.7);
+}
+
+#workExp{
+	padding: 25px;
+	background-color: rgba(245,245,245,0.9);
+	margin-bottom: 30px;
+}
+
+#projExp{
+	padding: 25px;
+	background-color: rgba(245,245,245,0.6);
+	margin-bottom: 30px;
+}
+
+
+#skills-courses{
+	background-color: rgba(245,245,245,0.9);
+	padding: 25px; 
+	margin-bottom: 100px; 
+}
+
+#misc{
+	background-color: rgba(245,245,245,0.8);
+	bottom: 0;
+	position: absolute;
+}
+
+
+/*Main Container*/
+.main-container{
+	min-height: 100vh; /* will cover the 100% of viewport */
+ 	overflow: hidden;
+	display: block;
+	position: relative;
+ 	padding-bottom: 100px; /* height of your footer */
+}
+
+
