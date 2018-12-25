@@ -9,7 +9,7 @@ This website is currently made with:-
 
 Learned how to make this website thanks to:-
 1) Codecademy Web Developement Tutorial
-2) Boostrap 4 Documentations
+2) Bootstrap 4 Documentations
 
 Future Improvements:
 1) Adding Javascript functionalities after doing some tutorials 
