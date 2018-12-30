@@ -32,16 +32,16 @@
 			        <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="#">Portfolio</a>
+			        <a class="nav-link" href="#portfolio">Portfolio</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="#">Contact</a>
+			        <a class="nav-link" href="#contact">Contact</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="#">LinkedIn</a>
+			        <a class="nav-link" href="https://www.linkedin.com/in/brian-chong-973225147/" target="_blank">LinkedIn</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="#">Github</a>
+			        <a class="nav-link" href="https://github.com/bcjr1997" target="_blank">Github</a>
 			      </li>
 			    </ul>
   			</div>
@@ -55,7 +55,7 @@
 		</div>
 
 		<!--About-->
-		<div class="about">
+		<div id="about" class="about">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-4 fa-9x">
@@ -71,7 +71,7 @@
 		</div>
 
 		<!--Portfolio-->
-		<div class="portfolio">
+		<div id="portfolio" class="portfolio">
 			<!--Skills-->
 			<div class="skills">
 				<h2>Portfolio</h2>
@@ -106,13 +106,13 @@
 				</div>
 				<div class="container">
 					<p>More can be found in the skills section in....</p>
-					<span class="fab fa-linkedin fa-4x"></span>
+					<a id="linkedin-click" class="fab fa-linkedin fa-4x" href="https://www.linkedin.com/in/brian-chong-973225147/" target="_blank"></a>
 				</div>
 			</div>
 		</div>
 		
 		<!--Work Experience-->
-		<div class="work-exp">
+		<div id="work-exp" class="work-exp">
 			<h3>Work Experience</h3>
 			<div class="container-fluid">
 				<div class="row">
@@ -169,9 +169,72 @@
 		</div>
 
 		<!--Project Experience-->
-		<div class="proj-exp">
+		<div id="proj-exp" class="proj-exp">
 			<h3>Project Experience</h3>
+			<div class="container-fluid">
+				<div id="proj-carousel" class="carousel slide" data-ride="carousel">
+					<!--Indicators-->
+					<ol class="carousel-indicators">
+						<li data-target="proj-carousel" data-slide-to="0" class="active"></li>
+						<li data-target="proj-carousel" data-slide-to="1"></li>
+						<li data-target="proj-carousel" data-slide-to="2"></li>
+					</ol>
+					<!--SlideShow-->
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div id="laptopContainer"class="container">
+								<span id="laptop" class="fas fa-laptop-code fa-6x"><h5>PDFSense</h5></span>
+								<div class="row">
+									<div class="col-md-12">
+										<p>Project for Design Studio</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div id="laptopContainer"class="container">
+								<span id="laptop" class="fas fa-laptop-code fa-6x"></span>
+								<div class="row">
+									<div class="col-md-12">
+										<p>Project for Design Studio</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div id="laptopContainer"class="container">
+								<span id="laptop" class="fas fa-laptop-code fa-6x"></span>
+								<div class="row">
+									<div class="col-md-12">
+										<p>Project for Design Studio</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--Left and Right Controls-->
+					<a class="carousel-control-prev" href="#proj-carousel" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    					<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#proj-carousel" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<!--sr-only is for Screen Readers only-->
+    					<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
 		</div>
+
 		<!--Courses-->
+
+		<!--Contacts-->
+		<div id="contact" class="contact">
+			<h4>Interested? Feel free to contact me through my email</h4>
+			<div class="container-fluid">
+				<span id="email-contact" class="fas fa-mail-bulk fa-6x"></span>
+				<h5>brian.cjr2323@gmail.com</h5>
+			</div>
+		</div>
 	</body>
 </html>
