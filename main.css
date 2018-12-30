@@ -68,6 +68,10 @@ body{
 	text-align: center;
 }
 
+#linkedin-click{
+	text-decoration-style: 
+}
+
 /*Work Experience Section*/
 .work-exp h3{
 	padding-top: 6%;
@@ -98,3 +102,39 @@ body{
 	text-align: center;
 }
 
+#proj-carousel{
+	padding: 4%;
+	background-color: pink;
+	height: 500px;
+}
+
+#laptopContainer{
+	text-align: center;
+	padding-top: 3%;
+}
+
+#laptop{
+	border: 6px double white;
+	padding: 6%;
+	border-radius: 34%;
+}
+
+
+
+/*Contacts*/
+.contact{
+	padding-top: 4%;
+}
+
+.contact h4{
+	text-align: center;
+}
+
+#email-contact{
+	padding: 3%;
+}
+
+.contact .container-fluid{
+	text-align: center;
+	padding: 2%;
+}
