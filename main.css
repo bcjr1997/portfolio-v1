@@ -29,6 +29,7 @@ body, html{
 .about{
 	padding: 5%;
 	height: 100%;
+	width: 100%;
 	background-color: pink;
 }
 
@@ -51,6 +52,7 @@ body, html{
 #portfolio{
 	padding: 5%;
 	height: 100%;
+	width: 100%
 	background-color: white;
 }
 
@@ -112,6 +114,7 @@ body, html{
 
 .work-exp {
 	height: 150%;
+	width: 100%;
 	background-color: pink;
 }
 
@@ -143,6 +146,7 @@ body, html{
 
 .proj-exp{
 	height: 140%;
+	width:100%;
 	padding-top: 0%;
 	background-color: white;
 }
@@ -173,6 +177,7 @@ body, html{
 
 .research-exp{
 	height: 100%;
+	width: 100%;
 	background-color: pink;
 }
 
@@ -198,6 +203,7 @@ body, html{
 #contact{
 	padding: 5%;
 	height: 100%;
+	width: 100%;
 	background-color: white;
 }
 
