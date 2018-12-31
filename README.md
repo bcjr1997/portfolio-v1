@@ -5,11 +5,15 @@ This website is currently made with:-
 1) HTML
 2) CSS
 3) BootStrap 4
-4) Icons Library: Font Awesome
+4) JavaScript with JQuery
+5) Icons Library: Font Awesome, Devicon 2.0
 
 Learned how to make this website thanks to:-
 1) Codecademy Web Developement Tutorial
 2) Bootstrap 4 Documentations
+
+Animated Navbar thanks to: Dan Zuzevich. Video Link: https://www.youtube.com/watch?v=qpUjEEERTTs
+
 
 Future Improvements:
 1) Adding Javascript functionalities after doing some tutorials 
