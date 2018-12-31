@@ -5,14 +5,16 @@ body, html{
 	padding: 0;
 }
 
-div{
+/*Overflow Properties*/
+#skills, #work-exp, #proj-exp{
 	overflow: auto;
-}
+} 
 
 /*Navbar*/
 .changeTransparentToSolid{
-	background-image: linear-gradient(purple, pink);
+	background-color: rgba(245,245,245,0.7);
 }
+
 /*Header of the website*/
 .header{
 	width: 100%;
@@ -31,10 +33,15 @@ div{
 
 /*About Section*/
 .about{
-	padding: 5%;
 	height: 100%;
 	width: 100%;
-	background-color: pink;
+	background-image: url("Images/abstract-1867838_1920.jpg");
+}
+
+.about .container-fluid{
+	background-color: rgba(245,245,245,0.7);
+	padding-top: 5%;
+	height: 100%;
 }
 
 .about h3{
@@ -57,19 +64,27 @@ div{
 	padding: 5%;
 	height: 100%;
 	width: 100%
-	background-color: white;
+	
+}
+
+.portfolio{
+	background-image:url("Images/desktop-2325627_1920.jpg");
+}
+
+.skills{
+	background-color: rgba(245,245,245,0.7);
 }
 
 .portfolio .skills h2, p{
 	text-align: center;
-	padding:4%;
+	padding:2%;
 }
 
 .portfolio .skills .grid-container{
 	display: grid;
 	text-align: center;
 	align-content: center;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: auto auto auto auto;
 	grid-column-gap: 0px;
 	grid-row-gap: 50px;
 }
@@ -119,12 +134,13 @@ div{
 .work-exp {
 	height: 150%;
 	width: 100%;
-	background-color: pink;
+	background-image: url(Images/digital-1742687_1920.jpg);
 }
 
 .work-exp h3{
 	padding-top: 6%;
 	text-align: center;
+	color: white;
 }
 
 #logo{
@@ -133,7 +149,7 @@ div{
 }
 
 .work-exp .container-fluid{
-	padding-top: 2%;
+	padding: 4%;
 }
 
 .work-exp .card-body{
@@ -152,7 +168,7 @@ div{
 	height: 140%;
 	width:100%;
 	padding-top: 0%;
-	background-color: white;
+	background-image: url("Images/icon-1379228_1920.png");
 }
 
 .proj-exp .container-fluid{
@@ -182,14 +198,17 @@ div{
 .research-exp{
 	height: 100%;
 	width: 100%;
-	background-color: pink;
+	background-image: url("Images/network-782707.png");
 }
 
 .research-exp h4{
 	text-align: center;
 	padding-top: 8%;
 }
-
+.research-exp .container-fluid{
+	background-color:  rgba(245,245,245,0.9);
+	height: 100%;
+}
 .research-exp .container-fluid .row{
 	padding: 4%;
 }
@@ -208,11 +227,12 @@ div{
 	padding: 5%;
 	height: 100%;
 	width: 100%;
-	background-color: white;
+	background-image: url("Images/email-marketing-2362038_1920.png");
 }
 
 .contact h4{
 	text-align: center;
+	padding-top: 4%;
 }
 
 #email-contact{
