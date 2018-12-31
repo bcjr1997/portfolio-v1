@@ -4,6 +4,10 @@ body{
 	padding: 0;
 }
 
+/*Navbar*/
+.changeTransparentToSolid{
+	background-image: linear-gradient(purple, pink);
+}
 /*Header of the website*/
 .header{
 	width: 100%;
@@ -18,6 +22,20 @@ body{
 /*About Section*/
 .about{
 	padding: 5%;
+}
+
+.about h3{
+	text-align: center;
+	padding: 4%;
+}
+
+.about .container-fluid .row .col-md-4{
+	text-align: center;
+}
+
+.about .container-fluid p{
+	padding: 2%;
+	text-align: left;
 }
 
 
@@ -98,27 +116,22 @@ body{
 }
 
 /*Project Experience Section*/
-.proj-exp h3{
+.proj-exp h4{
 	text-align: center;
 }
 
-#proj-carousel{
+.proj-exp .container-fluid .row{
 	padding: 4%;
-	background-color: pink;
-	height: 500px;
 }
 
-#laptopContainer{
+#r1 p, #r2 p, #r3 p{
+	text-align: left;
+	padding: 0; 
+}
+
+.proj-exp .container-fluid .col-md-4{
 	text-align: center;
-	padding-top: 3%;
 }
-
-#laptop{
-	border: 6px double white;
-	padding: 6%;
-	border-radius: 34%;
-}
-
 
 
 /*Contacts*/
