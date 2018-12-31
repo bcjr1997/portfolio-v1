@@ -1,6 +1,7 @@
 /*Body*/
-body{
+body, html{
 	margin:0;
+	height: 100%;
 	padding: 0;
 }
 
@@ -11,17 +12,24 @@ body{
 /*Header of the website*/
 .header{
 	width: 100%;
-	height: 400px;
-	background-image: linear-gradient(white, pink);
+	height: 100%;
+	background-image: url("Images/social-media-2786261_1920.jpg");
 	background-size: cover;
+	background-position: center;
 	text-align: center;
 	margin: 0 auto;
 	padding: 15%;
 }
 
+.header .container{
+	background-color: rgba(245,245,245,0.7);
+}
+
 /*About Section*/
 .about{
 	padding: 5%;
+	height: 100%;
+	background-color: pink;
 }
 
 .about h3{
@@ -40,6 +48,12 @@ body{
 
 
 /*Skills Section*/
+#portfolio{
+	padding: 5%;
+	height: 100%;
+	background-color: white;
+}
+
 .portfolio .skills h2, p{
 	text-align: center;
 	padding:4%;
@@ -86,11 +100,21 @@ body{
 	text-align: center;
 }
 
+.portfolio .skills .container p{
+	padding-bottom: 0;
+}
+
 #linkedin-click{
-	text-decoration-style: 
+	text-decoration: none;
 }
 
 /*Work Experience Section*/
+
+.work-exp {
+	height: 150%;
+	background-color: pink;
+}
+
 .work-exp h3{
 	padding-top: 6%;
 	text-align: center;
@@ -102,7 +126,7 @@ body{
 }
 
 .work-exp .container-fluid{
-	padding: 4%;
+	padding-top: 2%;
 }
 
 .work-exp .card-body{
@@ -116,12 +140,24 @@ body{
 }
 
 /*Project Experience Section*/
-.proj-exp h4{
+
+.proj-exp{
+	height: 140%;
+	padding-top: 0%;
+	background-color: white;
+}
+
+.proj-exp .container-fluid{
+	padding: 4%;
+}
+
+.proj-exp h3{
 	text-align: center;
+	padding-top: 8%;
 }
 
 .proj-exp .container-fluid .row{
-	padding: 4%;
+	padding: 2%;
 }
 
 #r1 p, #r2 p, #r3 p{
@@ -133,10 +169,36 @@ body{
 	text-align: center;
 }
 
+/*Research Experience Section*/
+
+.research-exp{
+	height: 100%;
+	background-color: pink;
+}
+
+.research-exp h4{
+	text-align: center;
+	padding-top: 8%;
+}
+
+.research-exp .container-fluid .row{
+	padding: 4%;
+}
+
+.research-exp p{
+	text-align: left;
+	padding: 0;
+}
+
+#ns3_logo{
+	width: 255px;
+}
 
 /*Contacts*/
-.contact{
-	padding-top: 4%;
+#contact{
+	padding: 5%;
+	height: 100%;
+	background-color: white;
 }
 
 .contact h4{

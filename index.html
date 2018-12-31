@@ -31,8 +31,14 @@
 			      <li class="nav-item active">
 			        <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
 			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#portfolio">Portfolio</a>
+			      <li class="nav-item dropdown">
+			        <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			        	<a class="dropdown-item" href="#portfolio">Skills</a>
+			        	<a class="dropdown-item" href="#work-exp">Work Experience</a>
+			        	<a class="dropdown-item" href="#proj-exp">Project Experience</a>
+			        	<a class="dropdown-item" href="#research-exp">Research Experience</a>
+				        </div>
 			      </li>
 			      <li class="nav-item">
 			        <a class="nav-link" href="#contact">Contact</a>
@@ -50,8 +56,10 @@
 
 		<!--Header-->
 		<div class="header">
-			<h1>Jun Rong Brian Chong</h1>
-			<h4>Senior Computer Science Major at the University of Nebraska-Lincoln</h4>
+			<div class="container">
+				<h1>Jun Rong Brian Chong</h1>
+				<h4>Senior Computer Science Major at the University of Nebraska-Lincoln</h4>
+			</div>
 		</div>
 
 		<!--About-->
@@ -143,24 +151,24 @@
 					</div>
 					<div class="col-md-6">
 						<div id="softEng" class="card">
-							<span id="logo" class="fas fa-code fa-6x"></span>
+							<span id="logo" class="fas fa-chalkboard-teacher fa-6x"></span>
 							<div class="card-body">
 								<h5 class="card-title">Teaching Assistant - Software Engineering</h5>
 								<h6 class="card-subtitle">University of Nebraska-Lincoln</h6>
 								<p class="card-text">
-									Developing industry standard software for Design Studio partners that will solve their current issues
+									In charge of tutoring students about software engineering topics that they have trouble with. Responsible for grading their projects and providing quality feedback on their assignments.
 								</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div id="softEng" class="card">
-							<span id="logo" class="fas fa-code fa-6x"></span>
+							<span id="logo" class="fas fa-chalkboard-teacher fa-6x"></span>
 							<div class="card-body">
 								<h5 class="card-title">Teaching Assistant - Data Structures and Algorithms</h5>
 								<h6 class="card-subtitle">University of Nebraska-Lincoln</h6>
 								<p class="card-text">
-									Developing industry standard software for Design Studio partners that will solve their current issues
+									In charge of tutoring students about data structures and algorithms topics that they have trouble with. Helped students with their C++ coding problems such as syntax and libraries. 
 								</p>
 							</div>
 						</div>
@@ -170,9 +178,9 @@
 		</div>
 
 		<!--Project Experience-->
-		<div class="proj-exp">
-			<h4>Project Experience</h4>
+		<div id="proj-exp" class="proj-exp">
 			<div class="container-fluid">
+			<h3>Project Experience</h3>
 				<div id="r1" class="row">
 					<div class="col-md-8">
 						<h5>PDFSense</h5>
@@ -189,24 +197,47 @@
 						<a class="btn btn-primary" href="https://github.com/bcjr1997/bcjr1997.github.io" target="_blank">Website</a>
 					</div>
 					<div class="col-md-4">
-						<span class="fas fa-globe fa-6x"></span>
+						<a href="https://github.com/bcjr1997/bcjr1997.github.io" target="_blank">
+							<span class="fas fa-globe fa-10x"></span>
+						</a>
 					</div>
 				</div>
 				<div id='r3' class="row">
 					<div class="col-md-8">
 						<h5>HamsterHelp</h5>
-						<p>Hamsterhelp is a Proof-of-Concept project for my Software Engineering course, CSCE 361. This project is an Android app which aims to provide help to international students who requires assistance in transistion to a new place. This app also allow users to rate their helpers that assisted them and have the opportunity to make them as friends as well. This project was made by using Java in Android Studio. The app and documentations can be found my GitHub by clicking the button below !!!</p>
+						<p>Hamsterhelp is a Proof-of-Concept project for my Software Engineering course, CSCE 361. This project is an Android app which aims to provide help to international students who requires assistance in transistion to a new place. This app also allows users to rate their helpers who assisted them and have the opportunity to make them as friends as well. This project was made by using Java in Android Studio. The app and documentations can be found my GitHub by clicking the button below !!!</p>
 						<a class="btn btn-primary" href="https://github.com/bcjr1997/csce361project" target="_blank">HamsterHelp</a>
 					</div>
 					<div class="col-md-4">
-						<img src="Images/hamsterhelp_logo.png">
+						<a href="https://github.com/bcjr1997/csce361project" target="_blank">
+							<img src="Images/hamsterhelp_logo.png">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Research Experience-->
+		<div id="research-exp" class="research-exp">
+			<div class="container-fluid">
+				<h4>Research Experience</h4>
+				<div class="row">
+					<div class="col-md-12">
+						<p>I worked as an Undergraduate Research Assistant under Professor Lisong Xu at the University of Nebraska Lincoln for 6 months. Within that time period, I was tasked to research on the Internet of Things with the focus on Wireless Sensor Networks simulation in NS-3. The research ended with a short report handed to my professor.</p> 
+					</div>
+					<div class="col-md-12">
+						<a href="https://www.nsnam.org/" target="_blank">
+							<img id=ns3_logo src="Images/ns-3.png" alt="NS-3 Home Page">
+						</a>	
 					</div>
 				</div>
 			</div>
 		</div>
 
 		<!--Courses-->
-
+		<div class="course">
+			
+		</div>
 		<!--Contacts-->
 		<div id="contact" class="contact">
 			<h4>Interested? Feel free to contact me through my email</h4>
