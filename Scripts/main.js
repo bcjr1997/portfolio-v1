@@ -3,7 +3,7 @@
 //document object is the webpage
 // '$' sign represents loading a JQuery library
 //Learned from https://www.youtube.com/watch?v=qpUjEEERTTs
-
+//Javascript takes up more resources than CSS
 //Change Navbar from Transparent to Solid/Something Else
 $(document).ready(function(){
 	$(window).scroll(function(){
@@ -16,4 +16,3 @@ $(document).ready(function(){
 	});
 });
 
-//Refresh the page Function

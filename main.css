@@ -19,7 +19,7 @@ body, html{
 .header{
 	width: 100%;
 	height: 100%;
-	background-image: url("Images/social-media-2786261_1920.jpg");
+	background-image: url("Images/afterglow-background-beautiful-552791.jpg");
 	background-size: cover;
 	background-position: center;
 	text-align: center;
@@ -27,19 +27,14 @@ body, html{
 	padding: 15%;
 }
 
-.header .container{
-	background-color: rgba(245,245,245,0.7);
-}
-
 /*About Section*/
 .about{
 	height: 100%;
 	width: 100%;
-	background-image: url("Images/abstract-1867838_1920.jpg");
+	background-image: url("Images/background-background-image-clouds-1054289.jpg");
 }
 
 .about .container-fluid{
-	background-color: rgba(245,245,245,0.7);
 	padding-top: 5%;
 	height: 100%;
 }
@@ -56,6 +51,7 @@ body, html{
 .about .container-fluid p{
 	padding: 2%;
 	text-align: left;
+	background-color: rgba(245,245,245,0.4);
 }
 
 
@@ -89,32 +85,80 @@ body, html{
 	grid-row-gap: 50px;
 }
 
+.portfolio .skills .grid-container .grid-item .fa-java:hover{
+	color:red;
+}
+
+.portfolio .skills .grid-container .grid-item .fa-python:hover{
+	color:lightblue;
+}
+
 .portfolio .skills .grid-container .grid-item .devicon-html5-plain-wordmark{
 	font-size: 96px;
+}
+
+.portfolio .skills .grid-container .grid-item .devicon-html5-plain-wordmark:hover{
+	color: orange;
 }
 
 .portfolio .skills .grid-container .grid-item .devicon-cplusplus-plain{
 	font-size: 96px;
 }
 
+.portfolio .skills .grid-container .grid-item .devicon-cplusplus-plain:hover{
+	color: magenta;
+}
+
 .portfolio .skills .grid-container .grid-item .devicon-css3-plain{
 	font-size: 96px;
+}
+
+.portfolio .skills .grid-container .grid-item .devicon-css3-plain:hover{
+	color: blue;
 }
 
 .portfolio .skills .grid-container .grid-item .devicon-bootstrap-plain-wordmark{
 	font-size: 96px;
 }
 
+.portfolio .skills .grid-container .grid-item .devicon-bootstrap-plain-wordmark:hover{
+	color: purple;
+}
+
 .portfolio .skills .grid-container .grid-item .devicon-git-plain{
 	font-size: 96px;
+}
+
+.portfolio .skills .grid-container .grid-item .devicon-git-plain:hover{
+	color: #ff4500;
 }
 
 .portfolio .skills .grid-container .grid-item .devicon-c-line-wordmark{
 	font-size: 96px;
 }
 
+.portfolio .skills .grid-container .grid-item .devicon-c-line-wordmark:hover{
+	color: #7fffd4 ;
+}
+
 .portfolio .skills .grid-container .grid-item .devicon-mysql-plain{
 	font-size: 96px;
+}
+
+.portfolio .skills .grid-container .grid-item .devicon-mysql-plain:hover{
+	color: #9932CC;
+}
+
+.portfolio .skills .grid-container .grid-item .fa-android:hover{
+	color: #a4c639 ;
+}
+
+.portfolio .skills .grid-container .grid-item .fa-flask:hover{
+	color: lightgreen;
+}
+
+.portfolio .skills .grid-container .grid-item .fa-brain:hover{
+	color: #b666d2;
 }
 
 .portfolio .skills .container{
@@ -125,6 +169,21 @@ body, html{
 	padding-bottom: 0;
 }
 
+#android-icon{
+	height: 120px;
+	width: 120px;
+}
+
+#research-icon{
+	height: 120px;
+	width: 120px;
+}
+
+#ml-icon{
+	height: 120px;
+	width: 120px;
+}
+
 #linkedin-click{
 	text-decoration: none;
 	padding-bottom: 5%;
@@ -133,7 +192,7 @@ body, html{
 /*Work Experience Section*/
 
 .work-exp {
-	height: 150%;
+	height: 140%;
 	width: 100%;
 	background-image: url(Images/digital-1742687_1920.jpg);
 }
@@ -144,7 +203,7 @@ body, html{
 	color: white;
 }
 
-#logo{
+#logo1, #logo2, #logo3, #logo4{
 	text-align: center;
 	padding: 4%;
 }
@@ -207,11 +266,15 @@ body, html{
 	padding-top: 8%;
 }
 .research-exp .container-fluid{
-	background-color:  rgba(245,245,245,0.9);
+	background-color:  rgba(245,245,245,0.94);
 	height: 100%;
 }
 .research-exp .container-fluid .row{
 	padding: 4%;
+}
+
+.research-exp .container-fluid .col-md-12:nth-child(2){
+	text-align: center;
 }
 
 .research-exp p{
@@ -220,20 +283,21 @@ body, html{
 }
 
 #ns3_logo{
-	width: 255px;
+	width: 400px;
+	height: 255px;
 }
 
 /*Contacts*/
 #contact{
 	padding: 5%;
-	height: 100%;
+	height: 80%;
 	width: 100%;
 	background-image: url("Images/email-marketing-2362038_1920.png");
 }
 
 .contact h4{
 	text-align: center;
-	padding-top: 4%;
+	padding-top: 10%;
 }
 
 #email-contact{
