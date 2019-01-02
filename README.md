@@ -14,7 +14,9 @@ Learned how to make this website thanks to:-
 
 Animated Navbar thanks to: Dan Zuzevich. Video Link: https://www.youtube.com/watch?v=qpUjEEERTTs
 
-Background images taken from Pixabay
+Background images taken from Pixabay and Pexels
+
+The html and css file are validated using w3 CSS and HTML validator.
 
 Future Improvements:
 1) Adding Javascript functionalities after doing some tutorials 
