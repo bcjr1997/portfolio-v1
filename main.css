@@ -54,6 +54,23 @@ body, html{
 	background-color: rgba(245,245,245,0.4);
 }
 
+#misc{
+	padding: 3%; 
+	text-align: center;
+}
+
+.fa-file-alt , .fa-file{
+	color: black;
+	padding: 6%;
+}
+
+.fa-file-alt:hover, .fa-file:hover{
+	color:white;
+}
+
+#misc p{
+	text-align: center;
+}
 
 /*Skills Section*/
 #portfolio{
@@ -247,6 +264,14 @@ body, html{
 #r1 p, #r2 p, #r3 p{
 	text-align: left;
 	padding: 0; 
+}
+
+.fa-globe{
+	color: black;
+}
+
+.fa-globe:hover{
+	color: cadetblue;
 }
 
 .proj-exp .container-fluid .col-md-4{
