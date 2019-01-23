@@ -243,7 +243,7 @@ body, html{
 
 .proj-exp{
 	height: 140%;
-	width:100%;
+	width:100%;~
 	padding-top: 0%;
 	background-image: url("Images/icon-1379228_1920.png");
 }
@@ -261,9 +261,13 @@ body, html{
 	padding: 2%;
 }
 
-#r1 p, #r2 p, #r3 p{
+#r1 p, #r2 p, #r3 p, #r4 p{
 	text-align: left;
 	padding: 0; 
+}
+
+.fa-sheild-alt{
+	color: chartreuse
 }
 
 .fa-globe{
@@ -294,6 +298,7 @@ body, html{
 	background-color:  rgba(245,245,245,0.94);
 	height: 100%;
 }
+
 .research-exp .container-fluid .row{
 	padding: 4%;
 }
